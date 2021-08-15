@@ -22,7 +22,7 @@ import java.util.List;
  * @Date : 2021/8/15 13:56
  * @Version : 1.0
  */
-@Service
+@Service("userDetailsServiceBean")
 public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Resource(name = "TbUserServiceImpl")
